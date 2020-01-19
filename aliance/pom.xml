@@ -49,6 +49,17 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--Зависимости для работы с postgres-->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1209.jre7</version>
+        </dependency>
     </dependencies>
 
     <build>
